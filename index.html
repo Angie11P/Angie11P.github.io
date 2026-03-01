@@ -1,20 +1,269 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My portfolio</title>
+    <title>Angie Puerres | Profesional</title>
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="icon" type="image/webp" href="asset/img/unnamed.png">
+
 </head>
-<body bgcolor="#DAD5EA">
-    <br>
-    <center><h1>My portfolio</h1></center>
-    <center><img src="imag/img_1.jpg" width="10%"></center>
-    <center><h1>ABOUT ME</h1></center>
-    <center><a href="my_background.html" target="_blank">My Backgroud</a> 
-    <a href="my_experience.html" target="_blank">My experience</a>
-    <a href="my_proyects.html" target="_blank">My Proyects</a> </center>
+<body>
+    <nav id="navbar" class="sticky">
+        <div class="nav-content">
+            <div class="logo">CodeBite</div>
+            <div class="menu-icon" id="menu-icon">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#experience">Experiencia</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
 
+    <br><br>
 
+    <header id="hero" class="section hero-section"> 
+        <div class="hero-content">
+            <h1 class="hero-title">Hola, mi nombre es ANGIE </h1>
+            <h2 class="hero-subtitle">
+                <span class="profession">Ingeniera de Sistemas</span> |
+                <span class="profession">Especialista en Gerencia de Proyectos</span>
+            </h2>
+            <div class="typing-container">
+                <span id="typing-text"></span><span class="cursor">_</span>
+            </div>
+
+            <div class="hero-buttons">
+                <a href="asset/img/curriculum.pdf" class="btn btn-primary" download="Curriculo_Angie_Puerres_Caicedo.pdf">Ver Currículum</a>
+                <a href="#contact" class="btn btn-secondary">Contacto</a>
+            </div>
+        </div>
+        <div class="hero-bg-elements">s
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+        </div>
+    </header>
+
+    <section id="about" class="section about-section hidden-element">
+        <h2 class="section-title">Sobre Mí</h2>
+        <div class="about-container">
+            <div class="about-text slide-in-left">
+                <p>Soy Angie Puerres Caicedo, Ingeniera de Sistemas y Especialista en Gerencia de Proyectos con un enfoque sólido en el Desarrollo Web Full Stack. Trabajo bajo metodologías ágiles como Scrum para asegurar entregas eficientes y alineadas con los objetivos estratégicos.</p>
+                <p>Disfruto trabajar en equipo, escuchar diferentes ideas y construir soluciones de manera colaborativa. Me caracterizo por ser organizada, responsable y perseverante; cuando asumo un reto, doy lo mejor de mí hasta verlo convertido en resultados concretos.</p>
+                <p>Creo en el crecimiento continuo, en la importancia de adaptarse a los cambios y en mantener siempre una actitud proactiva. Me entusiasma participar en proyectos que generen impacto, donde pueda aportar no solo mis conocimientos, sino también mi creatividad, empatía y capacidad de liderazgo.</p>
+            </div>
+            <div class="about-image slide-in-right">
+                <div class="image-placeholder floating-effect">
+                    <img src="asset/img/img1.jpg" alt="foto" class="about-photo">
+                </div>
+            </div>
+    </section>
+
+    <section id="experience" class="section experience-section hidden-element">
+        <h2 class="section-title">Experiencia Profesional</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content card-hover">
+                    <h3>Implementación GLPI</h3>
+                    <p class="timeline-problem"><strong>Problema:</strong> Gestión ineficiente de 600 equipos tecnológicos.</p>
+                    <p class="timeline-action"><strong>Acción:</strong> Implementación y personalización del sistema GLPI con automatización de inventarios.</p>
+                    <p class="timeline-result"><strong>Resultado:</strong> Control total, reducción de tiempos de respuesta y optimización de recursos.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content card-hover">
+                    <h3>Seguridad de la Información</h3>
+                    <p class="timeline-problem"><strong>Problema:</strong> Ausencia de protocolos de seguridad y análisis de riesgos.</p>
+                    <p class="timeline-action"><strong>Acción:</strong> Análisis de vulnerabilidades y creación de manual de políticas de seguridad.</p>
+                    <p class="timeline-result"><strong>Resultado:</strong> Entorno seguro, mitigación de riesgos y cumplimiento de normativas.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content card-hover">
+                    <h3>Desarrollo Web Full Stack</h3>
+                    <p class="timeline-problem"><strong>Problema:</strong> Necesidad de sistemas a medida para gestión institucional.</p>
+                    <p class="timeline-action"><strong>Acción:</strong> Desarrollo de plataformas web integrales con gestión avanzada de roles y permisos.</p>
+                    <p class="timeline-result"><strong>Resultado:</strong> Soluciones escalables, seguras y altamente eficientes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section projects-section hidden-element">
+        <h2 class="section-title">Proyectos Destacados</h2>
+        <div class="projects-grid">
+            <div class="project-card card-3d">
+                <h3>PASTOSETP</h3>
+                <p>Plataforma de gestión y control.</p>
+                <button class="btn btn-primary btn-sm open-modal" data-modal="modal-pastosetp">Ver detalle</button>
+            </div>
+            <div class="project-card card-3d">
+                <h3>PROSABER</h3>
+                <p>Sistema educativo y de evaluación.</p>
+                <button class="btn btn-primary btn-sm open-modal" data-modal="modal-prosaber">Ver detalle</button>
+            </div>
+            <div class="project-card card-3d">
+                <h3>ONCONNECT</h3>
+                <p>Plataforma de conexión institucional.</p>
+                <button class="btn btn-primary btn-sm open-modal" data-modal="modal-onconnect">Ver detalle</button>
+            </div>
+            <div class="project-card card-3d">
+                <h3>NARIÑOEMPLEA</h3>
+                <p>Portal de empleabilidad y bolsa de trabajo.</p>
+                <button class="btn btn-primary btn-sm open-modal" data-modal="modal-narino">Ver detalle</button>
+            </div>
+            <div class="project-card card-3d">
+                <h3>Plataforma Académica</h3>
+                <p>Sistema con gestión de múltiples roles.</p>
+                <button class="btn btn-primary btn-sm open-modal" data-modal="modal-academica">Ver detalle</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modals -->
+    <div id="modal-pastosetp" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>PASTOSETP</h2>
+            <p>Detalles completos del proyecto PASTOSETP. Arquitectura, tecnologías utilizadas y el impacto generado en la organización.</p>
+        </div>
+    </div>
+    <div id="modal-prosaber" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>PROSABER</h2>
+            <p>Sistema implementado para la gestión educativa. Desarrollo centrado en la usabilidad y la seguridad de la información de los usuarios.</p>
+        </div>
+    </div>
+    <div id="modal-onconnect" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>ONCONNECT</h2>
+            <p>Herramienta diseñada para facilitar la comunicación y el intercambio de información dentro de un entorno seguro y monitoreado.</p>
+        </div>
+    </div>
+    <div id="modal-narino" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>NARIÑOEMPLEA</h2>
+            <p>Plataforma que conecta oportunidades laborales con candidatos, integrando bases de datos robustas y búsquedas optimizadas.</p>
+        </div>
+    </div>
+    <div id="modal-academica" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Plataforma Académica con Roles</h2>
+            <p>Sistema de gestión con diferentes niveles de acceso, permitiendo a administradores, profesores y estudiantes interactuar de manera eficiente y segura.</p>
+        </div>
+    </div>
+
+    <section id="skills" class="section skills-section hidden-element">
+        <h2 class="section-title">Competencias Técnicas</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Lenguajes y Frontend</h3>
+                <div class="skill-bar">
+                    <span class="skill-name">HTML / CSS / JavaScript</span>
+                    <div class="progress-bg"><div class="progress-fill" data-width="95%"></div></div>
+                </div>
+                <div class="skill-bar">
+                    <span class="skill-name">Desarrollo Backend</span>
+                    <div class="progress-bg"><div class="progress-fill" data-width="85%"></div></div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Bases de Datos y Seguridad</h3>
+                <div class="skill-bar">
+                    <span class="skill-name">SQL / NoSQL</span>
+                    <div class="progress-bg"><div class="progress-fill" data-width="90%"></div></div>
+                </div>
+                <div class="skill-bar">
+                    <span class="skill-name">Análisis de Vulnerabilidades</span>
+                    <div class="progress-bg"><div class="progress-fill" data-width="88%"></div></div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Herramientas y Metodologías</h3>
+                <div class="skill-bar">
+                    <span class="skill-name">GLPI & Automatización</span>
+                    <div class="progress-bg"><div class="progress-fill" data-width="92%"></div></div>
+                </div>
+                <div class="skill-bar">
+                    <span class="skill-name">Scrum / Gestión de Proyectos</span>
+                    <div class="progress-bg"><div class="progress-fill" data-width="90%"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="methodology" class="section methodology-section hidden-element">
+        <h2 class="section-title">Metodología de Trabajo</h2>
+        <div class="method-grid">
+            <div class="method-card">
+                <div class="css-icon icon-search"></div>
+                <h3>Análisis</h3>
+                <p>Evaluación profunda de requerimientos y vulnerabilidades.</p>
+            </div>
+            <div class="method-card">
+                <div class="css-icon icon-plan"></div>
+                <h3>Estrategia</h3>
+                <p>Planificación bajo marcos ágiles (Scrum) y diseño arquitectónico.</p>
+            </div>
+            <div class="method-card">
+                <div class="css-icon icon-code"></div>
+                <h3>Desarrollo</h3>
+                <p>Implementación Full Stack con enfoque en la seguridad y eficiencia.</p>
+            </div>
+            <div class="method-card">
+                <div class="css-icon icon-check"></div>
+                <h3>Optimización</h3>
+                <p>Pruebas, monitoreo y automatización continua.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact-section hidden-element">
+        <h2 class="section-title">Trabajemos Juntos</h2>
+        <div class="contact-grid">
+            <a href="mailto:puerresangie@gmail.com" class="contact-card">
+                <div class="css-icon icon-mail"></div>
+                <h3>Correo Electrónico</h3>
+                <p>Hablemos de tu próximo proyecto</p>
+            </a>
+            <a href="https://linkedin.com/in/angie-puerres-25aaa73b1" target="_blank" rel="noopener noreferrer" class="contact-card">
+                <div class="css-icon icon-linkedin"></div>
+                <h3>LinkedIn</h3>
+                <p>Conecta conmigo profesionalmente</p>
+            </a>
+            <a href="https://github.com/Angie11P" target="_blank" rel="noopener noreferrer" class="contact-card">
+                <div class="css-icon icon-github"></div>
+                <h3>GitHub</h3>
+                <p>Explora mi código y contribuciones</p>
+            </a>
+        </div>
+    </section>
+
+    <button id="back-to-top" class="back-to-top" aria-label="Volver arriba">
+        <div class="arrow-up"></div>
+    </button>
+
+    <footer class="footer">
+        <p>&copy; 2026 Angie Ximena Puerres Caicedo. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="asset/js/script.js"></script>
 </body>
 </html>
